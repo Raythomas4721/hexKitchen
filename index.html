@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>六角西餐廳</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container mt-4">
+      <h1 class="text-center mb-4">六角西餐廳</h1>
+      <form class="row" method="post" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdN0M30GB6NSQxfeAhWK0B4PSpuIPGVLnoWo4TrksqtkeKtRA/formResponse">
+        <div class="col-md-6">
+          <label for="name" class="form-label">Name:</label>
+          <input type="text" id="name" class="form-control" name="entry.104959259"/>
+        </div>
+        <div class="col-md-6">
+          <label for="phone" class="form-label">Phone:</label>
+          <input type="tel" id="phone" class="form-control" name="entry.403616441" />
+        </div>
+        <div class="col-12">
+          <label for="date" class="form-label">Date:</label>
+          <input type="date" id="date" class="form-control" name="entry.650799372" />
+        </div>
+        <div class="col-12">
+          <label for="reserve" class="form-label">How many people :</label>
+          <select id="reserve" class="form-select" name="entry.1491692660">
+            <option value="1">1 people</option>
+            <option value="2">2 people</option>
+            <option value="3">3 people</option>
+            <option value="4">4 people</option>
+            <option value="5">5 people</option>
+            <option value="6">6 people</option>
+            <option value="7">7 people</option>
+            <option value="8">8 people</option>
+            <option value="9">9 people</option>
+            <option value="10">10 people</option>
+          </select>
+        </div>
+        <div class="col-12 mt-3 mb-3">
+          <h6>其他項目</h6>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value="需要兒童座椅"
+              id="childSeat"
+              name="entry.901461210"
+            />
+            <label class="form-check-label" for="childSeat">需要兒童座椅</label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value="素食餐點"
+              id="vegeMeal"
+              name="entry.901461210"
+            />
+            <label class="form-check-label" for="vegeMeal">素食餐點</label>
+          </div>
+
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value="吸煙區"
+              id="smokeArea"
+              name="entry.901461210"
+            />
+            <label class="form-check-label" for="smokeArea">吸煙區 </label>
+          </div>
+        </div>
+        <div class="col-12">
+            <button type="submit" class="btn btn-primary w-100">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
